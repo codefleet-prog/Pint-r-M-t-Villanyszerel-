@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapcsolat | Pintér Máté Villanyszerelő</title>
+    <meta name="description" content="Kérjen árajánlatot vagy hívjon azonnali hibaelhárítás esetén! Pintér Máté villanyszerelő Budapesten (Óbuda és vonzáskörzete).">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-bolt"></i> Pintér <span>Máté</span>
+            </a>
+            <nav class="nav-links">
+                <a href="index.html">Kezdőlap</a>
+                <a href="services.html">Szolgáltatások</a>
+                <a href="about.html">Rólam</a>
+                <a href="references.html">Referenciák</a>
+                <a href="contact.html" class="active">Kapcsolat</a>
+            </nav>
+            <div class="nav-cta">
+                <a href="tel:+36301234567" class="phone-link"><i class="fas fa-phone-alt"></i> +36 30 123 4567</a>
+                <a href="contact.html" class="btn btn-primary">Ajánlatkérés</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <div class="container">
+            <h1>Kapcsolat</h1>
+            <p>Állok rendelkezésére villanyszerelési kérdésekkel és ajánlatkérésekkel kapcsolatban.</p>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="container">
+        <div class="contact-grid">
+            
+            <!-- Contact Info -->
+            <div>
+                <div class="contact-info-card">
+                    <h3>Elérhetőségeim</h3>
+                    <p style="margin-bottom: 30px;">Hívjon bizalommal hétköznapokon munkaidőben, vagy küldjön üzenetet, és hamarosan felveszem Önnel a kapcsolatot!</p>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div class="contact-text">
+                            <h4>Telefonszám</h4>
+                            <a href="tel:+36301234567">+36 30 123 4567</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-text">
+                            <h4>E-mail cím</h4>
+                            <a href="mailto:info@pintervillany.hu">info@pintervillany.hu</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="contact-text">
+                            <h4>Kiszállási terület</h4>
+                            <p>Budapest, kiemelten 3. kerület (Óbuda) és agglomerációja.</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item" style="margin-top: 40px; justify-content: center;">
+                        <a href="https://www.facebook.com/profile.php?id=100088707173924" target="_blank" class="btn btn-primary" style="width: 100%;"><i class="fab fa-facebook-square"></i> Kövessen Facebookon</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-wrapper">
+                <h3>Ajánlatkérés / Üzenetküldés</h3>
+                <p style="margin-bottom: 25px;">Kérem, írja le röviden miben segíthetek, és hamarosan jelentkezem.</p>
+                
+                <form id="contactForm">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                        <div class="form-group">
+                            <label for="name">Név *</label>
+                            <input type="text" id="name" class="form-control" required placeholder="Pl. Kiss János">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefonszám *</label>
+                            <input type="tel" id="phone" class="form-control" required placeholder="+36 30 000 0000">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">E-mail cím</label>
+                        <input type="email" id="email" class="form-control" placeholder="pelda@email.hu">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">Munkavégzés címe (Irányítószám, Város, Utca) *</label>
+                        <input type="text" id="address" class="form-control" required placeholder="1033 Budapest, Fő tér 1.">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Üzenet, hiba leírása *</label>
+                        <textarea id="message" class="form-control" required placeholder="Kérem írja le, hogy pontosan milyen munkára kér ajánlatot..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Üzenet küldése <i class="fas fa-paper-plane" style="margin-left: 5px;"></i></button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="index.html" class="logo">
+                        <i class="fas fa-bolt"></i> Pintér <span>Máté</span>
+                    </a>
+                    <p>Megbízható, precíz és szakszerű villanyszerelés Budapest egész területén. Célunk az Ön elégedettsége és biztonsága.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Menü</h4>
+                    <ul>
+                        <li><a href="index.html">Kezdőlap</a></li>
+                        <li><a href="services.html">Szolgáltatások</a></li>
+                        <li><a href="about.html">Rólam</a></li>
+                        <li><a href="references.html">Referenciák</a></li>
+                        <li><a href="contact.html">Kapcsolat</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Kapcsolat</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> <span>Budapest, 3. kerület (Óbuda) és vonzáskörzete</span></li>
+                        <li><i class="fas fa-phone-alt"></i> <span>+36 30 123 4567</span></li>
+                        <li><i class="fas fa-envelope"></i> <span>info@pintervillany.hu</span></li>
+                        <li><i class="fab fa-facebook-square"></i> <span><a href="https://www.facebook.com/profile.php?id=100088707173924" target="_blank">Facebook oldal</a></span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Pintér Máté - Villanyszerelő. Minden jog fenntartva.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
